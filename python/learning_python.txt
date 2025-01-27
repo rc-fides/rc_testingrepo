@@ -1,0 +1,3 @@
+In Python you can loop through lines to read a document.
+In Python you can write classes.
+In python you can write RANDOM TEXT classes of classes.
