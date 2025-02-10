@@ -1,23 +1,11 @@
 from pathlib import Path
 
-path = Path("pi_million_digits.txt")
+path = Path(r"C:\Users\times\git\rc_testingrepo\python\pi_digits\pi_million_digits.txt")  # Example for Windows
+
 contents = path.read_text()
-
-# lines = contents.splitlines()
-# for line in lines:
-#     print(line)
-
-# lines = contents.splitlines()
-# pi_string = ""
-# for line in lines:
-#     pi_string += line.lstrip()
-
-# print(f"{pi_string[:52]}")
-# print(len(pi_string))
-
-
 lines = contents.splitlines()
 pi_string = ""
+
 for line in lines:
     pi_string += line.strip()
 
