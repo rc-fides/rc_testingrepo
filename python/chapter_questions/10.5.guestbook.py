@@ -1,5 +1,6 @@
 from pathlib import Path
 new_name = ""
+
 while True:
     name = input("What is your name: ")
     new_name += name + "\n"
